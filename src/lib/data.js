@@ -1,45 +1,8 @@
-// export const projects = [
-//   {
-//     id: 1,
-//     title: "E-Commerce Platform",
-//     description:
-//       "Modern React-based shopping platform with cart functionality and payment integration",
-//     tech: ["React", "TypeScript", "Tailwind CSS", "Stripe API"],
-//     image: "🛒",
-//     category: "Web Application",
-//     preview: "#",
-//   },
-//   {
-//     id: 2,
-//     title: "Task Management App",
-//     description:
-//       "Collaborative task management tool with real-time updates and drag-and-drop interface",
-//     tech: ["React", "Firebase", "Material-UI", "Socket.io"],
-//     image: "📋",
-//     category: "Web Application",
-//     preview: "#",
-//   },
-//   {
-//     id: 3,
-//     title: "Weather Dashboard",
-//     description:
-//       "Beautiful weather application with interactive charts and location-based forecasts",
-//     tech: ["Vue.js", "Chart.js", "OpenWeather API", "CSS Grid"],
-//     image: "🌤️",
-//     category: "Web Application",
-//     preview: "#",
-//   },
-//   {
-//     id: 4,
-//     title: "Portfolio Website",
-//     description:
-//       "Responsive portfolio website with smooth animations and modern design",
-//     tech: ["Next.js", "Framer Motion", "Styled Components"],
-//     image: "💼",
-//     category: "Website",
-//     preview: "#",
-//   },
-// ];
+import mapty from "../../public/mapty.png";
+import amazon from "../../public/Amazon.png";
+import outdoor from "../../public/outdoors.png";
+import trillo from "../../public/hotel.png";
+import faraway from "../../public/Far-away.jpg";
 
 export const projects = [
   {
@@ -50,7 +13,7 @@ export const projects = [
     // longDescription:
     //   "This comprehensive e-commerce platform features a responsive design, real-time inventory management, secure payment processing via Stripe, user account management, order tracking, and a complete admin panel for product and order management.",
     tech: ["HTML", "Vanilla CSS", "Javascript"],
-    image: "../../public/mapty.png",
+    image: mapty,
     category: "Web Application",
     preview: "https://mapty-map-app.vercel.app/",
     github: "https://github.com/HUMILITY001/Mapty-map-app",
@@ -67,7 +30,7 @@ export const projects = [
     // longDescription:
     //   " showcasing strong UI design and interactive functionality using only fundamental web technologies.",
     tech: ["HTML", "Vanilla CSS", "Javascript"],
-    image: "../../public/Amazon.png",
+    image: amazon,
     category: "Web Application",
     preview: "https://amazon-shopping-site.vercel.app/",
     github: "https://github.com/HUMILITY001/Amazon-shopping-site",
@@ -84,7 +47,7 @@ export const projects = [
     // longDescription:
     //   "An advanced weather application providing detailed forecasts, historical weather data, interactive maps, air quality information, and weather alerts with a stunning user interface.",
     tech: ["HTML", "CSS", "SCSS"],
-    image: "../../public/outdoors.png",
+    image: outdoor,
     category: "Web Application",
     preview: "https://natours-website-steel.vercel.app/",
     github: "https://github.com/HUMILITY001/Natours-website",
@@ -101,13 +64,31 @@ export const projects = [
     longDescription:
       "A modern portfolio website featuring smooth scroll animations, interactive project showcases, contact forms, blog integration, and optimized SEO for maximum visibility.",
     tech: ["Next.js", "Framer Motion", "Styled Components", "Vercel"],
-    image: "../../public/hotel.png",
+    image: trillo,
     category: "Website",
     preview: "https://trillo-website-ten.vercel.app/",
     github: "https://github.com/HUMILITY001/Trillo-website",
     featured: false,
     status: "Live",
     date: "2024-05-18",
+    rating: 4,
+  },
+
+  {
+    id: 5,
+    title: "Far-Away Website",
+    description:
+      "A simple To-do list website where You can add, check and delete items on the to do list and also sort them out. PS: This a desktop only view",
+    // longDescription:
+    //   "A modern portfolio website featuring smooth scroll animations, interactive project showcases, contact forms, blog integration, and optimized SEO for maximum visibility.",
+    tech: ["Vercel", "React", "Vanilla CSS"],
+    image: faraway,
+    category: "Website",
+    preview: "https://far-away-three-nu.vercel.app/",
+    github: "https://github.com/HUMILITY001/far-away",
+    featured: false,
+    status: "Live",
+    date: "2025-05-18",
     rating: 4,
   },
 ];

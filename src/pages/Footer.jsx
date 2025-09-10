@@ -30,7 +30,7 @@ export default function Footer() {
             <LiaTelegram size={25} />
           </a>
           <a
-            href="https://github.com/HUMILITY001"
+            href="https://wa.me/2348131596593"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
@@ -38,7 +38,7 @@ export default function Footer() {
             <RiWhatsappLine size={25} />
           </a>
           <a
-            href="https://wa.me/2348131596593"
+            href="https://github.com/HUMILITY001"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
