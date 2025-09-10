@@ -1,3 +1,4 @@
+import profile from "../../public/profile.jpg";
 export default function Header() {
   return (
     <div className="my-15 ml-5 md:w-[65%] md:text-center md:mx-auto">
@@ -5,7 +6,7 @@ export default function Header() {
         Hey, I'm
         <span>
           <img
-            src="../../public/profile.jpg"
+            src={profile}
             className="h-13 hover:scale-110 transition-all md:h-18 rotate-8 shadow-xl/20 rounded-2xl border-3 mx-1.5 border-gray-200"
           />
         </span>
